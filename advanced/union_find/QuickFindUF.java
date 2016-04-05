@@ -7,6 +7,7 @@ import com.sun.xml.internal.bind.v2.model.annotation.Quick;
  */
 
 //O(1) find but O(n^2) union
+//http://vancexu.github.io/2015/07/13/intro-to-union-find-data-structure.html
 public class QuickFindUF {
 
     private int[] id; //id[i] is component id for object i
